@@ -1,9 +1,26 @@
-# React + Vite
+# EasyBuyShop 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a complete Mern Stack Project for Selling any types of product virtually.
 
-Currently, two official plugins are available:
+## Live Link:
+https://easybuyshop.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# EasyBuyShop
+
+## Frontend Packages
+
+ - [Vite + React](https://vitejs.dev/)
+ - [React Route Dom](https://reactrouter.com/en/main)
+ 
+## Authors
+
+- [@emaduddin678](https://github.com/emaduddin678)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
