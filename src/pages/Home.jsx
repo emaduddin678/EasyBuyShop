@@ -1,13 +1,20 @@
 import React from "react";
 import PageTitle from "../components/PageTitle";
+import ProductSidebar from "../components/ProductSidebar";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <PageTitle title="Home" message="Home page component" />
-      <h1>Home page</h1>
-      <p>This is home page</p>
-    </div>
+      <div className="flex justify-around items-center">
+        <div className="sidebar-container flex-[1]">
+          <ProductSidebar />
+        </div>
+        <div className="main-container flex-[1]">
+          <p>List of All Product</p>
+        </div>
+      </div>
+    </>
   );
 };
 
