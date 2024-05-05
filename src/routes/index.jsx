@@ -6,6 +6,7 @@ import Cart from "../pages/Cart";
 import Error from "../pages/Error";
 import NavbarComponent from "../layout/Navbar";
 import Logout from "../pages/Logout";
+import Footer from "../layout/Footer";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
