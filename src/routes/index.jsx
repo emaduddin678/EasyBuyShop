@@ -4,14 +4,18 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Cart from "../pages/Cart";
 import Error from "../pages/Error";
+import NavbarComponent from "../layout/Navbar";
+import Logout from "../pages/Logout";
 
 const Index = () => {
   return (
     <BrowserRouter>
+      <NavbarComponent />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<Error />} />
       </Routes>

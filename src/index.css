@@ -1,0 +1,99 @@
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #006d77;
+  --secondary-color: #023047;
+  --padding: 0.5rem;
+  --transition: all 0.3s;
+  --border-radius: 0.6rem;
+  --box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.myBtn {
+  border: none;
+  padding: var(--padding);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: var(--transition);
+}
+
+.myBtn:hover {
+  background-color: var(--secondary-color);
+}
+
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hr-design {
+  margin: 0.5rem 0;
+}
+
+.card {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  padding: var(--padding);
+}
+
+.card:hover {
+  box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Navbar css  */
+
+nav {
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+  min-height: 10vh;
+}
+
+.nav_lists {
+  gap: 1rem;
+}
+
+.nav_link{
+  color: white;
+}
