@@ -9,6 +9,7 @@ import Logout from "../pages/Logout";
 import Footer from "../layout/Footer";
 
 const Index = () => {
+  
   return (
     <BrowserRouter>
       <NavbarComponent />
